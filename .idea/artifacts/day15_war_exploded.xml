@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="day15:war exploded">
+    <output-path>$PROJECT_DIR$/../apache-tomcat-8.5.78/webapps/day15</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="day15_stu" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="file-copy" path="$PROJECT_DIR$/day15/web/WEB-INF/lib/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/day15/web/WEB-INF/lib/standard.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/day15/web/WEB-INF/lib/c3p0-0.9.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/day15/web/WEB-INF/lib/commons-beanutils.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/day15/web/WEB-INF/lib/commons-dbutils-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/day15/web/WEB-INF/lib/commons-logging-1.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/day15/web/WEB-INF/lib/mchange-commons-java-0.2.3.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/day15/web/WEB-INF/lib/mysql-connector-java-5.1.40-bin.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="day15_stu/web/Web" />
+    </root>
+  </artifact>
+</component>
